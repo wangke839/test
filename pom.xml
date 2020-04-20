@@ -10,6 +10,8 @@
         <module>feign-server</module>
         <module>log-server</module>
         <module>interface</module>
+        <module>consul-client</module>
+        <module>zuul-server</module>
     </modules>
 
     <!-- 引入父依赖 -->
