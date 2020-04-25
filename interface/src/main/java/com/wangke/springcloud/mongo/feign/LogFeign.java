@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@FeignClient(name = "log-server")
+@FeignClient(name = "log-server"/*,fallback = LogFeignCallback.class*/)
 public interface LogFeign {
     @RequestMapping("/log/save")
     @ResponseBody

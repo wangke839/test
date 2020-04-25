@@ -19,4 +19,7 @@ public class ResultInfo {
     public ResultInfo ok(Object result){
         return  new ResultInfo("success",1001,result);
     }
+    public ResultInfo err(Object result){
+        return  new ResultInfo("err",1002,result);
+    }
 }

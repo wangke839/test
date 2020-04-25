@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Component
 public class HelloFeignCallback implements HelloFeign{
-    @RequestMapping("hello")
+    @RequestMapping("shop/hello")
     @ResponseBody
-    public Object hello(){
+    public String hello(){
         return "服务错误";
     }
 }

@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public interface HelloFeign {
     @RequestMapping("shop/hello")
     @ResponseBody
-    public Object hello();
+    public String hello();
 }

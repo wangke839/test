@@ -12,6 +12,11 @@
         <module>interface</module>
         <module>consul-client</module>
         <module>zuul-server</module>
+        <module>tomcat-game</module>
+        <module>love-server</module>
+        <module>user-server</module>
+        <module>gateway-server</module>
+        <module>config-server</module>
     </modules>
 
     <!-- 引入父依赖 -->
