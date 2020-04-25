@@ -8,7 +8,7 @@ spring:
       server:
         git:
           #配置github
-          uri: https://gitee.com/zhanggm1002/springcloud-demo-0325.git
+          uri: https://github.com/wangke839/test.git
           #配置搜索目录
           search-paths:
             - configfiles
